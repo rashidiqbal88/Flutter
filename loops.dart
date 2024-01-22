@@ -73,18 +73,18 @@ void main() {
   print("/     WHILE LOOP     /");
   print("/====================/");
 
-  // var email = stdin.readLineSync();
-  // var password = stdin.readLineSync();
-  // bool isLogin = true;
+  var email = stdin.readLineSync();
+  var password = stdin.readLineSync();
+  bool isLogin = true;
 
-  // while (isLogin == true) {
-  //   if (email == "admin@gmail.com" && password == "12345") {
-  //     print("Login Successfully...");
-  //     isLogin = false;
-  //   } else {
-  //     print("login faild...");
-  //     email = stdin.readLineSync();
-  //     password = stdin.readLineSync();
-  //   }
-  // }
+  while (isLogin == true) {
+    if (email == "admin@gmail.com" && password == "12345") {
+      print("Login Successfully...");
+      isLogin = false;
+    } else {
+      print("login faild...");
+      email = stdin.readLineSync();
+      password = stdin.readLineSync();
+    }
+  }
 }
